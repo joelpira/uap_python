@@ -1,8 +1,10 @@
-print("hello")
+x = "DataScience"
+if 1 == 1:
+    print("Condition is True")
+for i in range(len(x)):
+    print(i, ". ", x[i])
 
 
-if __name__ == "__main__":
-    print("This is the main module.")
-
-    for i in range(1, 6):
-        print("*" * i)
+print(x[1:8:2])
+print(x[-4:] + x[:4])
+print(x[2:9:3])
